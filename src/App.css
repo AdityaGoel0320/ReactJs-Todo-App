@@ -1,0 +1,12 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+.list{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  border: 5px solid black;
+  gap: 3px;
+}
