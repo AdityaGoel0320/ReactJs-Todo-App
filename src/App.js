@@ -2,6 +2,7 @@ import { useEffect, useState } from 'react';
 import './App.css';
 
 import { FontAwesomeIcon  } from '@fortawesome/react-fontawesome';
+import About from './Components/About';
 let getLocalStorageData = () => {
   let arr = localStorage.getItem("todoListItems")
   if (arr) {
@@ -102,6 +103,8 @@ function App() {
 
   return (
     <>
+
+    <About/>
       <div className='heading' >
 
         <h1>

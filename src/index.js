@@ -4,6 +4,16 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+
+import '@fortawesome/fontawesome-free/css/all.min.css';
+// Alternatively, you can import individual styles if you need to reduce bundle size:
+// import '@fortawesome/fontawesome-free/css/fontawesome.min.css';
+// import '@fortawesome/fontawesome-free/css/solid.min.css';
+// import '@fortawesome/fontawesome-free/css/regular.min.css';
+// import '@fortawesome/fontawesome-free/css/brands.min.css';
+
+
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
