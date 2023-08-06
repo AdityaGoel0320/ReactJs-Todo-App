@@ -102,25 +102,25 @@ function App() {
   }, [items])
 
 
-  let fnc = () => {
-    let x = document.getElementById("id")
-    // x.style.display = "inline";
+  // let fnc = () => {
+  //   let x = document.getElementById("id")
+  //   // x.style.display = "inline";
 
-  
-    if(x.classList.contains("class")) {
-        x.classList.remove("class");
-    }
-    else {
-        x.classList.add("class");
-    }
-  }
+
+  //   if(x.classList.contains("class")) {
+  //       x.classList.remove("class");
+  //   }
+  //   else {
+  //       x.classList.add("class");
+  //   }
+  // }
   return (
     <>
-      <button className='z' onClick={fnc}>About this Project</button>
+      {/* <button className='z' onClick={fnc}>About this Project</button>
       <div id='id' className="class">
 
         <About />
-      </div>
+      </div> */}
       <div className="main-div">
         <div className="child-div">
           <figure>
