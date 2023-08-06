@@ -133,6 +133,7 @@ function App() {
               className="form-control"
               value={inputData}
               onChange={onchange}
+              style = {{"color" : "black"}}
             />
             {toggleBtn ? (
               <i className="far fa-edit add-btn" onClick={addBtn}></i>
