@@ -1,28 +1,27 @@
 import React from 'react';
-
+import "./about.css"
 const About = () => {
   return (
     <>
       <div className='m-12 flex items-center justify-center flex-col gap-12'>
         <header className='flex items-center justify-center flex-col gap-3 m-12 mb-24'>
-          <h1>About This Website</h1>
-          <h2>Hi there! I'm Aditya Goel, and I proudly present my React.js project.</h2>
+          <h1 className='heading'>About This Website</h1>
+          <h2>Hi there! I'm <span className='name'>Aditya Goel</span>, and I proudly present my React.js project.</h2>
         </header>
-        <img src="../images/logo.jpg" alt="todo list photo" />
         <main className='flex items-center justify-center flex-col gap-3'>
           <section className='flex  justify-center flex-col gap-3'>
-            <h2>About the Project</h2>
+            <h2 className='sub_heading'>About the Project</h2>
             <h3>Welcome to my React.js project! This application showcases my skills in React.js development, bringing you a dynamic and interactive user experience.</h3>
             <h3>In this project, I've utilized various powerful React.js hooks such as useState, useEffect, useContext, among others. Additionally, I've harnessed the flexibility of JavaScript functions like filter() and map() to handle data efficiently and enhance user interactions.</h3>
           </section>
 
           <section>
-            <h2>Main Features</h2>
+            <h2 className='sub_heading'>Main Features</h2>
             <h3><strong>Use of local storage:</strong> One of the primary highlights of this project is the use of local storage. By using it, you can store all your tasks in local storage and access them anytime.</h3>
           </section>
 
           <section>
-            <h2>Why I Built This</h2>
+            <h2 className='sub_heading'>Why I Built This</h2>
             <h3>This project has been an exciting opportunity for me to deepen my expertise in React.js and frontend web development. I wanted to challenge myself to create a user-friendly application that demonstrates my passion for building intuitive and visually appealing interfaces.</h3>
             <h3>I hope this project inspires and serves as a testament to my dedication to delivering top-notch web solutions.</h3>
           </section>

@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import './App.css';
 
-import { FontAwesomeIcon  } from '@fortawesome/react-fontawesome';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import About from './Components/About';
 let getLocalStorageData = () => {
   let arr = localStorage.getItem("todoListItems")
@@ -101,15 +101,30 @@ function App() {
 
   }, [items])
 
+
+  let fnc = () => {
+    let x = document.getElementById("id")
+    // x.style.display = "inline";
+
+  
+    if(x.classList.contains("class")) {
+        x.classList.remove("class");
+    }
+    else {
+        x.classList.add("class");
+    }
+  }
   return (
     <>
+      <button className='z' onClick={fnc}>About this Project</button>
+      <div id='id' className="class">
 
-    {/* <About/> */}
+        <About />
+      </div>
       <div className="main-div">
         <div className="child-div">
           <figure>
-            <img src="./images/todo.svg" alt="todologo" />
-            <figcaption >Welcome to your All in one Task Manager✌</figcaption>
+            <figcaption style={{ "margin": "10px" }} >Welcome to your All in one Task Manager✌</figcaption>
           </figure>
           <div className="addItems">
             <input
@@ -127,7 +142,7 @@ function App() {
           </div>
           {/* show our items  */}
           <div className="showItems">
-            {items.map((element  , index) => {
+            {items.map((element, index) => {
               return (
                 <div className="eachItem" key={index}>
                   <h3>{element.data}</h3>
@@ -148,22 +163,12 @@ function App() {
 
 
 
-
-
-
-
-
-
-
-
-
-
           {/* rmeove all button  */}
           <div className="showItems">
             <button
               className="btn effect04"
               data-sm-link-text="Remove All"
-              onClick={() =>  deletefnc() }>
+              onClick={() => deletefnc()}>
               <span> CHECK LIST</span>
             </button>
           </div>

@@ -1,168 +1,3 @@
-/* body {
-
-  margin: 0;
-  padding: 0;
-  overflow-x: hidden;
-  background-color: #2b4162;
-  background-image: linear-gradient(315deg, #2b4162 0%, #12100e 74%);
-
-  color: white;
-}
-
-html {
-  font-size: 62.5%;
-}
-
-h1 {
-  font-size: 3rem;
-  font-weight: 900;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-
-}
-
-.h1 {
-  font-size: 3rem;
-  height: 2.8rem;
-  margin: 1rem;
-  font-size: 100px;
-  font-weight: 900;
-  display: inline;
-}
-
-h2 {
-  font-size: 3.5rem;
-}
-
-h3 {
-  font-size: 2.5rem;
-  font-weight: 700;
-}
-
-h4 {
-  font-size: 2rem;
-}
-
-
-.heading {
-  margin: 3rem;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  gap: 3rem;
-}
-
-
-input {
-  background-color: white;
-  font-size: 2rem;
-  color: black;
-  border: 2px solid black;
-  border-radius: 1rem;
-  padding: 1rem;
-}
-
-
-
-button {
-  background-color: white;
-  color: black;
-  padding: 1rem;
-  font-size: 2rem;
-  border-radius: 1rem;
-  padding: 1rem;
-}
-
-.list {
-  display: flex;
-  align-items: center;
-  justify-content: center ; 
-  flex-direction: column;
-}
-svg{
-  color: black;
-  font-size: 3rem;
-}
-
-.sub_list{
-  display: flex;
-  align-items: center;
-  justify-content: center ; 
-  background-color: white;
-  color: black;
-}
-
-button:hover {}
-
-
-.btn {}
-
-#item {
-  display: flex;
-  flex-direction: column;
-  gap: 1rem;
-
-}
-
-
-#img {
-  border: 2px solid black;
-  height: 20rem;
-  width: 20rem;
-  border-radius: 100%;
-}
-
-
-
-
-@media (max-width : 320px) {
-  html {
-    font-size: 35%;
-  }
-
-}
-
-
-
-@media (min-width : 320px) and (max-width : 480px) {
-  html {
-    font-size: 43.75%;
-  }
-
-}
-
-@media (min-width : 481px) and (max-width : 768px) {
-  html {
-    font-size: 53.125%;
-  }
-
-}
-
-@media (min-width : 769px) and (max-width : 1023px) {
-  html {
-    font-size: 62.5%;
-  }
-
-}
-
-
-@media (min-width : 1024px) and (max-width : 1200px) {
-  html {
-    font-size: 71.85%;
-  }
-
-}
-
-
-@media (min-width : 1201px) {
-  html {
-    font-size: 77%;
-  }
-
-} */
-
 
 
 @import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap");
@@ -240,9 +75,6 @@ input:focus {
   box-shadow: 0 0 1.5rem rgba(0, 0, 0, 0.2);
 }
 
-/*  Please Subscribe to ThapaTechnical Youtube Channel
-/* Click Here: https://www.youtube.com/thapatechnical  */
-
 .todo-btn {
   width: 5rem;
   display: flex;
@@ -302,7 +134,6 @@ input:focus {
 
 .fa-trash-alt,
 .fa-edit {
-  /* margin-left: -2.5rem; */
   cursor: pointer;
   pointer-events: auto;
   z-index: 10;
@@ -320,8 +151,6 @@ input:focus {
   margin-left: -3.5rem;
 }
 
-/*  Please Subscribe to ThapaTechnical Youtube Channel
-/* Click Here: https://www.youtube.com/thapatechnical  */
 
 .eachItem:hover .fa-trash-alt {
   color: rgb(214, 47, 61);
@@ -354,8 +183,6 @@ input:focus {
 .effect04 {
   --uismLinkDisplay: var(--smLinkDisplay, inline-flex);
   display: var(--uismLinkDisplay);
-  /* color: #000; */
-  color: white;
   outline: solid 2px #000;
   position: relative;
   transition-duration: 0.4s;
@@ -393,4 +220,19 @@ input:focus {
   letter-spacing: 0.05em;
   -webkit-transform: translateY(0) scale(1, 1);
   transform: translateY(0) scale(1, 1);
+}
+
+
+
+.z{
+  background-color: black;
+  color: white;
+  border: 1px solid #eee;
+  display: inline-block;
+}
+
+
+
+.class{
+  display: none;
 }
