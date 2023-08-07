@@ -101,26 +101,29 @@ function App() {
 
   }, [items])
 
+  let fnc = () => {
+    let x = document.getElementById("id")
+    let text = document.getElementById("btn")
 
-  // let fnc = () => {
-  //   let x = document.getElementById("id")
-  //   // x.style.display = "inline";
+    if (x.classList.contains("class")) {
+      x.classList.remove("class");
+      text.innerText = "Click to Close About Section"
 
+    }
+    else {
+      x.classList.add("class");
+      text.innerText = "Click to See About Section"
 
-  //   if(x.classList.contains("class")) {
-  //       x.classList.remove("class");
-  //   }
-  //   else {
-  //       x.classList.add("class");
-  //   }
-  // }
+    }
+  }
+
   return (
     <>
-      {/* <button className='z' onClick={fnc}>About this Project</button>
+         <button id='btn' className='div' onClick={fnc}>Click to See About Section</button>
       <div id='id' className="class">
-
         <About />
-      </div> */}
+      </div>
+
       <div className="main-div">
         <div className="child-div">
           <figure>

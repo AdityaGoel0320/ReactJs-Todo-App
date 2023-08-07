@@ -3,9 +3,7 @@ body {
   margin: 0;
   padding: 0;
   overflow-x: hidden;
-  background-color: #2b4162;
-  background-image: linear-gradient(315deg, #2b4162 0%, #12100e 74%);
-
+  background-color: #212121;
   color: white;
 }
 
@@ -14,22 +12,23 @@ html {
 }
 
 h1 {
-  font-size: 3rem;
+  font-size: 3.5rem;
   font-weight: 900;
   display: flex;
   align-items: center;
   justify-content: center;
+  text-transform: uppercase;
 
 }
 
-.h1 {
+/* .h1 {
   font-size: 3rem;
   height: 2.8rem;
   margin: 1rem;
   font-size: 100px;
   font-weight: 900;
   display: inline;
-}
+} */
 
 h2 {
   font-size: 3.5rem;
@@ -46,40 +45,69 @@ h4 {
 }
 
 
-
-#i{
-    font-size: 3rem;
-    color: white;
-    margin: 2rem;
+#i {
+  font-size: 3rem;
+  color: white;
+  margin: 2rem;
 }
-
 
 
 #i:hover {
-    color: blue;
+  color: blue;
 }
 
-.heading{
-    text-align: center;
-    text-transform: uppercase;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    margin: 3rem;
-    margin-top: 4rem;
-    font-size: 4rem;
-}
-
-.name{
-    text-transform: uppercase;
-font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-.sub_heading{
-    text-align: center;
-    text-transform: uppercase;
-    font-family: 'Times New Roman', Times, serif;
-    margin: 3rem;
-    margin-top: 4rem;
+.about_container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 3rem;
+  padding: 1.5rem;
+  text-align: center;
 
 }
+
+.main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 3.5rem;
+  text-align: center;
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 3rem;
+  text-align: center;
+}
+
+.heading {
+  text-align: center;
+  text-transform: uppercase;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  margin: 3rem;
+  margin-top: 4rem;
+  font-size: 4rem;
+}
+
+.name {
+  text-transform: uppercase;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.sub_heading {
+  text-align: center;
+  text-transform: uppercase;
+  font-family: 'Times New Roman', Times, serif;
+  margin: 3rem;
+  margin-top: 4rem;
+
+}
+
 .heading {
   margin: 3rem;
   display: flex;
@@ -89,7 +117,6 @@ font-family: Verdana, Geneva, Tahoma, sans-serif;
   gap: 3rem;
 }
 
-
 input {
   background-color: white;
   font-size: 2rem;
@@ -98,7 +125,6 @@ input {
   border-radius: 1rem;
   padding: 1rem;
 }
-
 
 
 button {
@@ -113,24 +139,24 @@ button {
 .list {
   display: flex;
   align-items: center;
-  justify-content: center ; 
+  justify-content: center;
   flex-direction: column;
 }
-svg{
+
+svg {
   color: black;
   font-size: 3rem;
 }
 
-.sub_list{
+.sub_list {
   display: flex;
   align-items: center;
-  justify-content: center ; 
+  justify-content: center;
   background-color: white;
   color: black;
 }
 
 button:hover {}
-
 
 .btn {}
 
@@ -141,60 +167,56 @@ button:hover {}
 
 }
 
-
 #img {
   border: 2px solid black;
   height: 20rem;
   width: 20rem;
   border-radius: 100%;
 }
-
-
+.horizontal_line{
+  color: white;
+}
 
 
 @media (max-width : 320px) {
   html {
-    font-size: 35%;
+      font-size: 35%;
   }
 
 }
 
 
-
 @media (min-width : 320px) and (max-width : 480px) {
   html {
-    font-size: 43.75%;
+      font-size: 43.75%;
   }
 
 }
 
 @media (min-width : 481px) and (max-width : 768px) {
   html {
-    font-size: 53.125%;
+      font-size: 53.125%;
   }
 
 }
 
 @media (min-width : 769px) and (max-width : 1023px) {
   html {
-    font-size: 62.5%;
+      font-size: 62.5%;
   }
 
 }
-
 
 @media (min-width : 1024px) and (max-width : 1200px) {
   html {
-    font-size: 71.85%;
+      font-size: 71.85%;
   }
 
 }
 
-
 @media (min-width : 1201px) {
   html {
-    font-size: 77%;
+      font-size: 77%;
   }
 
-} 
-
+}

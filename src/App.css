@@ -15,7 +15,8 @@ html {
 
 .main-div {
   min-height: 100vh;
-  background: #060822;
+  /* background: #060822; */
+  background: #212121;
   display: flex;
   justify-content: center;
   /* align-items: center; */
@@ -33,7 +34,7 @@ html {
 
 .child-div figure figcaption {
   color: #fff;
-  font-size: 2.2rem;
+  font-size: 3rem;
   padding-top: 2rem;
   text-transform: capitalize;
 }
@@ -224,14 +225,19 @@ input:focus {
 
 
 
-.z{
-  background-color: black;
-  color: white;
-  border: 1px solid #eee;
-  display: inline-block;
+.div{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 1rem;
+  margin: 1rem;
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  background-color: white;
+  color: black;
+  width: fit-content;
 }
-
-
 
 .class{
   display: none;
