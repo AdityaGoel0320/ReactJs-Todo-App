@@ -38,7 +38,7 @@ const About = () => {
                 Made with ❤️ by Aditya Goel.</h3>
         </footer>
     
-        <div className='flex items-center justify-center  gap-5 m-5'>
+        <div className=''>
             <a href="https://github.com/AdityaGoel0320" target="_blank" rel="noopener noreferrer" className='color-black'>
                 <i id='i' className="fa-brands fa-github"></i>
             </a>
