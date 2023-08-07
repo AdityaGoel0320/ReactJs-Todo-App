@@ -45,6 +45,7 @@ h4 {
 }
 
 
+
 #i {
   font-size: 3rem;
   color: white;
@@ -52,9 +53,11 @@ h4 {
 }
 
 
+
 #i:hover {
   color: blue;
 }
+
 
 .about_container {
   display: flex;
@@ -67,6 +70,7 @@ h4 {
 
 }
 
+
 .main {
   display: flex;
   align-items: center;
@@ -75,6 +79,7 @@ h4 {
   gap: 3.5rem;
   text-align: center;
 }
+
 
 .footer {
   display: flex;
@@ -117,6 +122,7 @@ h4 {
   gap: 3rem;
 }
 
+
 input {
   background-color: white;
   font-size: 2rem;
@@ -125,6 +131,7 @@ input {
   border-radius: 1rem;
   padding: 1rem;
 }
+
 
 
 button {
@@ -158,6 +165,7 @@ svg {
 
 button:hover {}
 
+
 .btn {}
 
 #item {
@@ -167,15 +175,15 @@ button:hover {}
 
 }
 
+
 #img {
   border: 2px solid black;
   height: 20rem;
   width: 20rem;
   border-radius: 100%;
 }
-.horizontal_line{
-  color: white;
-}
+
+
 
 
 @media (max-width : 320px) {
@@ -184,6 +192,7 @@ button:hover {}
   }
 
 }
+
 
 
 @media (min-width : 320px) and (max-width : 480px) {
@@ -207,12 +216,14 @@ button:hover {}
 
 }
 
+
 @media (min-width : 1024px) and (max-width : 1200px) {
   html {
       font-size: 71.85%;
   }
 
 }
+
 
 @media (min-width : 1201px) {
   html {
